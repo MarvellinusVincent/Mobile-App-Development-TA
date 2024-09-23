@@ -13,8 +13,8 @@ class TicketListViewModel : ViewModel() {
                 UUID.randomUUID(),
                 "Ticket #$i",
                 Date(),
-                i % 2 == 0,  // Some tickets are solved
-                i % 5 == 0   // Every fifth ticket requires manager intervention
+                i % 2 == 0,
+                i % 5 == 0
             )
         }
     }
