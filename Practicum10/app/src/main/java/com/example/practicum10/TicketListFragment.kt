@@ -28,6 +28,8 @@ class TicketListFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         _binding = FragmentTicketListBinding.inflate(inflater, container, false)
         binding.ticketRecyclerView.layoutManager = LinearLayoutManager(context)
+        // answer to question 21 = no adapter
+//        binding.ticketRecyclerView.adapter = TicketListAdapter(emptyList())
         return binding.root
     }
 
