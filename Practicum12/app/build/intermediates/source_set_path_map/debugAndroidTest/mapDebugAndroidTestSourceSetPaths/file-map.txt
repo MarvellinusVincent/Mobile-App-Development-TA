@@ -1,0 +1,6 @@
+com.example.practicum12.test.app-annotation-experimental-1.4.1-0 /Users/marvell/.gradle/caches/transforms-4/8cd46b92a831371c12e6661b8547cc6b/transformed/annotation-experimental-1.4.1/res
+com.example.practicum12.test.app-core-1.5.0-1 /Users/marvell/.gradle/caches/transforms-4/c599194f7a732c260320148fc895befd/transformed/core-1.5.0/res
+com.example.practicum12.test.app-androidTest-2 /Users/marvell/AndroidStudioProjects/Practicum12/app/build/generated/res/resValues/androidTest/debug
+com.example.practicum12.test.app-mergeDebugAndroidTestResources-3 /Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.practicum12.test.app-mergeDebugAndroidTestResources-4 /Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.practicum12.test.app-debugAndroidTest-5 /Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

@@ -1,0 +1,47 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.practicum12.test" >
+4
+5    <uses-sdk
+5-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:5:5-74
+6        android:minSdkVersion="32"
+6-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:5:42-71
+8
+9    <instrumentation
+9-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:11:5-15:73
+10        android:name="androidx.test.runner.AndroidJUnitRunner"
+10-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:11:22-76
+11        android:functionalTest="false"
+11-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:14:22-52
+12        android:handleProfiling="false"
+12-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:13:22-53
+13        android:label="Tests for com.example.practicum12"
+13-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:15:22-71
+14        android:targetPackage="com.example.practicum12" />
+14-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:12:22-69
+15
+16    <queries>
+16-->[androidx.test:runner:1.6.1] /Users/marvell/.gradle/caches/transforms-4/0294a4b25422475d6aa80276633429ae/transformed/runner-1.6.1/AndroidManifest.xml:24:5-28:15
+17        <package android:name="androidx.test.orchestrator" />
+17-->[androidx.test:runner:1.6.1] /Users/marvell/.gradle/caches/transforms-4/0294a4b25422475d6aa80276633429ae/transformed/runner-1.6.1/AndroidManifest.xml:25:9-62
+17-->[androidx.test:runner:1.6.1] /Users/marvell/.gradle/caches/transforms-4/0294a4b25422475d6aa80276633429ae/transformed/runner-1.6.1/AndroidManifest.xml:25:18-59
+18        <package android:name="androidx.test.services" />
+18-->[androidx.test:runner:1.6.1] /Users/marvell/.gradle/caches/transforms-4/0294a4b25422475d6aa80276633429ae/transformed/runner-1.6.1/AndroidManifest.xml:26:9-58
+18-->[androidx.test:runner:1.6.1] /Users/marvell/.gradle/caches/transforms-4/0294a4b25422475d6aa80276633429ae/transformed/runner-1.6.1/AndroidManifest.xml:26:18-55
+19        <package android:name="com.google.android.apps.common.testing.services" />
+19-->[androidx.test:runner:1.6.1] /Users/marvell/.gradle/caches/transforms-4/0294a4b25422475d6aa80276633429ae/transformed/runner-1.6.1/AndroidManifest.xml:27:9-83
+19-->[androidx.test:runner:1.6.1] /Users/marvell/.gradle/caches/transforms-4/0294a4b25422475d6aa80276633429ae/transformed/runner-1.6.1/AndroidManifest.xml:27:18-80
+20    </queries>
+21
+22    <application
+22-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:7:5-9:19
+23        android:debuggable="true"
+24        android:extractNativeLibs="false" >
+25        <uses-library android:name="android.test.runner" />
+25-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:8:9-60
+25-->/Users/marvell/AndroidStudioProjects/Practicum12/app/build/intermediates/tmp/manifest/androidTest/debug/tempFile1ProcessTestManifest9640967995500145243.xml:8:23-57
+26    </application>
+27
+28</manifest>
