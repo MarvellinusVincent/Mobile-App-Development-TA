@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/ticketListFragment">
+
+    <fragment
+        android:id="@+id/ticketListFragment"
+        android:name="com.example.practicum17.TicketListFragment"
+        android:label="TicketListFragment" >
+        <action
+            android:id="@+id/showTicketDetail"
+            app:destination="@id/ticketDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ticketDetailFragment"
+        android:name="com.example.practicum17.TicketDetailFragment"
+        android:label="TicketDetailFragment" >
+        <argument
+            android:name="ticketId"
+            app:argType="java.util.UUID"
+            app:nullable="true" />
+        <action
+            android:id="@+id/select_date"
+            app:destination="@id/datePickerFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/datePickerFragment"
+        android:name="com.example.practicum17.DatePickerFragment"
+        android:label="fragment_date_picker"
+        tools:layout="@layout/fragment_date_picker" >
+        <argument
+            android:name="ticketDate"
+            app:argType="java.util.Date" />
+    </dialog>
+</navigation>
