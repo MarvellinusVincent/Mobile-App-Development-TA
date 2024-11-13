@@ -10,7 +10,7 @@
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_loginFragment_to_postsFragment"
+            android:id="@+id/navigateToPosts"
             app:destination="@id/postsFragment" />
     </fragment>
     <fragment
@@ -18,6 +18,22 @@
         android:name="com.example.practicum20.PostsFragment"
         android:label="fragment_posts"
         tools:layout="@layout/fragment_posts" >
+        <action
+            android:id="@+id/navigateToLogin"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/navigate_to_createFragment"
+            app:destination="@id/createFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/createFragment"
+        android:name="com.example.practicum20.CreateFragment"
+        android:label="fragment_create"
+        tools:layout="@layout/fragment_create" >
+        <action
+            android:id="@+id/navigate_to_postsFragment"
+            app:destination="@id/postsFragment" />
     </fragment>
 
 </navigation>

@@ -34,6 +34,9 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+    buildFeatures {
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -45,6 +48,7 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation("androidx.navigation:navigation-fragment-ktx:2.8.2")
     implementation("androidx.navigation:navigation-ui-ktx:2.8.2")
+    implementation(libs.firebase.firestore.ktx)
     debugImplementation("androidx.fragment:fragment-testing:1.8.3")
     implementation(libs.firebase.auth.ktx)
 
